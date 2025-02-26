@@ -14,6 +14,7 @@ import {
   Award,
   BookOpen,
   Coffee,
+  Download,
 } from "lucide-react"
 
 function App() {
@@ -586,10 +587,6 @@ function App() {
             <button className="px-4 py-2 rounded-full bg-white/10 text-white hover:bg-white/20 transition-all">
               All Projects
             </button>
-            <button className="px-4 py-2 rounded-full text-gray-400 hover:bg-white/10 transition-all">
-              E-commerce
-            </button>
-            <button className="px-4 py-2 rounded-full text-gray-400 hover:bg-white/10 transition-all">Web Apps</button>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -697,13 +694,15 @@ function App() {
               <Mail className="w-5 h-5 ml-2 transform transition-transform group-hover:rotate-12" />
             </a>
             <a
-              href="#"
+              href="https://drive.google.com/drive/u/2/folders/1BW8tSX8xtrYXyjiZngUiTnbEu1HFcySv?q=sharedwith:public%20parent:1BW8tSX8xtrYXyjiZngUiTnbEu1HFcySv%20type:pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-4 bg-white/10 rounded-full
                         font-semibold hover:bg-white/20 transition-all duration-300
                         transform hover:scale-105 group"
             >
               Download Resume
-              <ChevronRight className="w-5 h-5 ml-2 transform transition-transform group-hover:translate-x-2" />
+              <Download className="w-5 h-5 ml-2 transform transition-transform group-hover:translate-y-1" />
             </a>
           </div>
         </div>
