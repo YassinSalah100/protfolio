@@ -95,8 +95,7 @@ function App() {
       description: "Modern fashion e-commerce platform with seamless shopping experience",
       link: "https://splitstores.com",
       tags: ["Next.js", "E-commerce", "Fashion", "Stripe"],
-      image:
-        "https://sjc.microlink.io/SUvQFOg8x1f23NsYZByfJE4tj2urnq60G0G7moO1XNgFiGvu4hl0CVC8y_G-CJjljfcJ9ZURWybTaLyQMa4HpA.jpeg",
+      image: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&q=80",
       status: "active",
       stats: { stars: 165, forks: 48 },
       highlights: [
@@ -111,8 +110,7 @@ function App() {
       description: "Premium supplements & fitness e-commerce platform with advanced features",
       link: "https://www.energysupplements-eg.com",
       tags: ["Next.js", "E-commerce", "Payment Integration", "Loyalty System"],
-      image:
-        "https://sjc.microlink.io/O7mrNsH19E_0pY8ypkKvsmeq0xce4MDM67OcHGwLVTuy81rRTmuLusXQfVVwj0z4uPk3s9kIHEwPLAyAypHZeA.jpeg",
+      image: "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&q=80",
       status: "active",
       stats: { stars: 178, forks: 45 },
       highlights: [
@@ -158,8 +156,7 @@ function App() {
       description: "Premium fitness & supplements e-commerce platform with bilingual support",
       link: "https://musclesfactory-eg.com",
       tags: ["Next.js", "RTL Support", "E-commerce", "Dark Theme"],
-      image:
-        "https://sjc.microlink.io/WGJHK7Hs8JkQb99PoVl9_HzZV2XYi_1FmEuf5JJ5TXbUOvPJekZcAmqURhlYesLHFurVTa60ojauMr8iw-FKlA.jpeg",
+      image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80",
       status: "active",
       stats: { stars: 156, forks: 42 },
       highlights: [
@@ -712,4 +709,3 @@ function App() {
 }
 
 export default App
-
